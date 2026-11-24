@@ -1,0 +1,1021 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Aurelia — An elevated fine dining experience blending wood-fired culinary artistry with seasonal ingredients in SoHo, New York." />
+  <meta name="keywords" content="Aurelia, fine dining, wood-fired restaurant, Michelin star, tasting menu, wine cellar, Julian Vance, New York restaurant" />
+  <meta property="og:title" content="AURELIA | Fine Dining & Wood-Fired Gastronomy" />
+  <meta property="og:description" content="Experience seasonal tasting menus and artisanal dishes crafted over open oak embers in an intimate, timeless setting." />
+  <meta property="og:type" content="website" />
+  <title>AURELIA | Fine Dining & Wood-Fired Gastronomy</title>
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Font Awesome for Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Top Announcement Bar -->
+  <div class="announcement-bar">
+    <div class="container announcement-content">
+      <span><i class="fa-solid fa-award"></i> Awarded Three Michelin Stars &bull; 2024 Michelin Guide Selection</span>
+      <a href="#reservations" class="announcement-link">Reserve Winter Degustation <i class="fa-solid fa-arrow-right"></i></a>
+    </div>
+  </div>
+
+  <!-- Navigation -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#home" class="logo">
+        <span class="logo-icon"><i class="fa-solid fa-fire-flame-curved"></i></span>
+        <span class="logo-text">AURELIA</span>
+      </a>
+
+      <nav class="nav-links" id="nav-links">
+        <a href="#welcome" class="nav-item">Philosophy</a>
+        <a href="#menu" class="nav-item">Menu</a>
+        <a href="#chefs-special" class="nav-item">Chef's Table</a>
+        <a href="#about" class="nav-item">Craft & Fire</a>
+        <a href="#gallery" class="nav-item">Gallery</a>
+        <a href="#reviews" class="nav-item">Accolades</a>
+        <a href="#contact" class="nav-item">Contact</a>
+        <a href="#reservations" class="btn btn-primary nav-cta">Reserve a Table</a>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="#reservations" class="btn btn-primary nav-cta-mobile">Book</a>
+        <button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="hero-bg-media">
+      <img src="https://images.unsplash.com/photo-1514933651103-005eec06c04b?auto=format&fit=crop&w=1920&q=85" alt="Aurelia intimate ambiance and open kitchen glow" class="hero-bg-img" />
+    </div>
+    <div class="hero-overlay"></div>
+    <div class="container hero-content reveal">
+      <div class="hero-badge">
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <span>Est. 2018 &bull; Wood-Fired Gastronomy</span>
+      </div>
+      <h1>Where Fire Meets<br><em>Culinary Artistry</em></h1>
+      <p>Experience seasonal tasting menus and artisanal dishes crafted over open oak embers in an intimate, timeless setting.</p>
+      <div class="hero-buttons">
+        <a href="#reservations" class="btn btn-primary"><i class="fa-regular fa-calendar-check"></i> Book Your Table</a>
+        <a href="#menu" class="btn btn-outline"><i class="fa-solid fa-utensils"></i> Explore Menu</a>
+      </div>
+
+      <div class="hero-highlights">
+        <div class="highlight-item">
+          <span class="highlight-num">45</span>
+          <span class="highlight-label">Days Dry-Aged</span>
+        </div>
+        <div class="highlight-separator"></div>
+        <div class="highlight-item">
+          <span class="highlight-num">100%</span>
+          <span class="highlight-label">Oak & Binchotan Hearth</span>
+        </div>
+        <div class="highlight-separator"></div>
+        <div class="highlight-item">
+          <span class="highlight-num">850+</span>
+          <span class="highlight-label">Curated Cellar Labels</span>
+        </div>
+      </div>
+    </div>
+    <a href="#welcome" class="scroll-down-cue" aria-label="Scroll to Philosophy section">
+      <span>Discover Aurelia</span>
+      <i class="fa-solid fa-chevron-down"></i>
+    </a>
+  </section>
+
+  <!-- Welcome / Philosophy Section -->
+  <section class="section welcome" id="welcome">
+    <div class="container welcome-grid">
+      <div class="welcome-text reveal">
+        <span class="subtitle">Welcome to Aurelia</span>
+        <h2>An Unforgettable Symphony of Flavor & Ambiance</h2>
+        <p class="lead-text">At Aurelia, dining is more than sustenance—it is a sensory ritual. Our kitchen celebrates heirloom ingredients sourced from local biodynamic farms, transformed through ancient open-hearth techniques and modern precision.</p>
+        <p>Every plate tells a story of provenance, passion, and patience, paired effortlessly with rare vintages from our temperature-controlled cellar. We believe the purity of fire reveals nuances in seafood, game, and heritage produce impossible to forge through modern ovens alone.</p>
+        
+        <div class="welcome-features">
+          <div class="wf-item">
+            <div class="wf-icon"><i class="fa-solid fa-leaf"></i></div>
+            <div>
+              <h4>Regenerative Provenance</h4>
+              <p>Direct partnerships with small-batch Hudson Valley organic farms.</p>
+            </div>
+          </div>
+          <div class="wf-item">
+            <div class="wf-icon"><i class="fa-solid fa-wine-glass"></i></div>
+            <div>
+              <h4>Grand Cru Cellar</h4>
+              <p>Rare biodynamic vintages guided by Head Sommelier Élodie Martin.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="signature-block">
+          <div class="signature">
+            <p class="chef-name">Julian Vance</p>
+            <span>Executive Chef & Founder</span>
+          </div>
+          <div class="chef-accolade">
+            <span class="chef-role">James Beard Award Winner</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="welcome-images reveal">
+        <div class="img-wrapper main-img-wrapper">
+          <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=900&q=80" alt="Fine dining culinary presentation" class="img-main" loading="lazy">
+          <div class="img-badge">
+            <i class="fa-solid fa-fire"></i>
+            <span>Oak Hearth Roasted</span>
+          </div>
+        </div>
+        <div class="img-wrapper accent-img-wrapper">
+          <img src="https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&w=700&q=80" alt="Sommelier pouring vintage wine" class="img-accent" loading="lazy">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Special Menu Section -->
+  <section class="section menu-section" id="menu">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="subtitle">Curated Selections</span>
+        <h2>Our Special Menu</h2>
+        <p>Thoughtfully composed seasonal creations crafted over glowing embers to awaken the palate.</p>
+      </div>
+
+      <!-- Filter Buttons -->
+      <div class="menu-filters reveal" id="menu-filters">
+        <button class="filter-btn active" data-filter="all">All Dishes</button>
+        <button class="filter-btn" data-filter="starters">Starters</button>
+        <button class="filter-btn" data-filter="mains">Main Course</button>
+        <button class="filter-btn" data-filter="desserts">Desserts</button>
+        <button class="filter-btn" data-filter="drinks">Cellar & Cocktails</button>
+      </div>
+
+      <!-- Menu Grid -->
+      <div class="menu-grid" id="menu-grid">
+        
+        <!-- Starters -->
+        <article class="menu-card reveal" data-category="starters">
+          <div class="card-img">
+            <img src="https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?auto=format&fit=crop&w=700&q=80" alt="Seared Hokkaido Scallops" loading="lazy">
+            <span class="tag">Seasonal</span>
+          </div>
+          <div class="card-body">
+            <div class="card-header">
+              <h3>Seared Hokkaido Scallops</h3>
+              <span class="price">$28</span>
+            </div>
+            <p>Cauliflower silk, crispy pancetta, black truffle emulsion, and sea buckthorn oil.</p>
+            <div class="card-footer">
+              <span class="dietary"><i class="fa-solid fa-fish-fins"></i> Gluten-Free</span>
+              <button class="quick-order-btn" data-dish="Seared Hokkaido Scallops" data-price="28" aria-label="Reserve dish">
+                <i class="fa-solid fa-plus"></i> Reserve
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <article class="menu-card reveal" data-category="starters">
+          <div class="card-img">
+            <img src="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=700&q=80" alt="Smoked Wagyu Carpaccio" loading="lazy">
+            <span class="tag gold">Chef's Signature</span>
+          </div>
+          <div class="card-body">
+            <div class="card-header">
+              <h3>Smoked Wagyu Carpaccio</h3>
+              <span class="price">$32</span>
+            </div>
+            <p>A5 Miyazaki beef, 36-month aged Parmigiano Reggiano, crispy caper berries, cold-smoked olive oil, and micro watercress.</p>
+            <div class="card-footer">
+              <span class="dietary"><i class="fa-solid fa-fire-burner"></i> Raw / Cured</span>
+              <button class="quick-order-btn" data-dish="Smoked Wagyu Carpaccio" data-price="32" aria-label="Reserve dish">
+                <i class="fa-solid fa-plus"></i> Reserve
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <article class="menu-card reveal" data-category="starters">
+          <div class="card-img">
+            <img src="https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=700&q=80" alt="Charred Heirloom Beets" loading="lazy">
+            <span class="tag">Vegetarian</span>
+          </div>
+          <div class="card-body">
+            <div class="card-header">
+              <h3>Charred Heirloom Beets</h3>
+              <span class="price">$22</span>
+            </div>
+            <p>Ember-roasted organic beets, whipped sheep's milk ricotta, pistachio-sesame dukkah, and 12-year balsamic reduction.</p>
+            <div class="card-footer">
+              <span class="dietary"><i class="fa-solid fa-seedling"></i> Vegetarian</span>
+              <button class="quick-order-btn" data-dish="Charred Heirloom Beets" data-price="22" aria-label="Reserve dish">
+                <i class="fa-solid fa-plus"></i> Reserve
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <article class="menu-card reveal" data-category="starters">
+          <div class="card-img">
+            <img src="https://images.unsplash.com/photo-1565680018434-b513d5e5fd47?auto=format&fit=crop&w=700&q=80" alt="Wood-Fired King Crab Leg" loading="lazy">
+            <span class="tag">Rare Catch</span>
+          </div>
+          <div class="card-body">
+            <div class="card-header">
+              <h3>Wood-Fired King Crab</h3>
+              <span class="price">$36</span>
+            </div>
+            <p>Norwegian red king crab, charred yuzu brown butter, finger lime pearls, fermented chili glaze, and chive blossoms.</p>
+            <div class="card-footer">
+              <span class="dietary"><i class="fa-solid fa-fish-fins"></i> Pescatarian</span>
+              <button class="quick-order-btn" data-dish="Wood-Fired King Crab" data-price="36" aria-label="Reserve dish">
+                <i class="fa-solid fa-plus"></i> Reserve
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <!-- Mains -->
+        <article class="menu-card reveal" data-category="mains">
+          <div class="card-img">
+            <img src="https://images.unsplash.com/photo-1558030006-450675393462?auto=format&fit=crop&w=700&q=80" alt="45-Day Dry-Aged Bistecca" loading="lazy">
+            <span class="tag gold">Signature</span>
+          </div>
+          <div class="card-body">
+            <div class="card-header">
+              <h3>45-Day Dry-Aged Bistecca</h3>
+              <span class="price">$88</span>
+            </div>
+            <p>Prime bone-in ribeye seared over white oak, roasted bone marrow demi-glace, confit black garlic, and rosemary smoke cloche.</p>
+            <div class="card-footer">
+              <span class="dietary"><i class="fa-solid fa-drumstick-bite"></i> Wood Hearth</span>
+              <button class="quick-order-btn" data-dish="45-Day Dry-Aged Bistecca" data-price="88" aria-label="Reserve dish">
+                <i class="fa-solid fa-plus"></i> Reserve
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <article class="menu-card reveal" data-category="mains">
+          <div class="card-img">
+            <img src="https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?auto=format&fit=crop&w=700&q=80" alt="Ember-Roasted Chilean Sea Bass" loading="lazy">
+            <span class="tag">Wild Caught</span>
+          </div>
+          <div class="card-body">
+            <div class="card-header">
+              <h3>Ember-Roasted Black Cod</h3>
+              <span class="price">$54</span>
+            </div>
+            <p>Saikyo white miso glaze, charred baby leeks, roasted maitake dashi broth, crispy ginger straw, and nori lace tuile.</p>
+            <div class="card-footer">
+              <span class="dietary"><i class="fa-solid fa-fish-fins"></i> Gluten-Free</span>
+              <button class="quick-order-btn" data-dish="Ember-Roasted Black Cod" data-price="54" aria-label="Reserve dish">
+                <i class="fa-solid fa-plus"></i> Reserve
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <article class="menu-card reveal" data-category="mains">
+          <div class="card-img">
+            <img src="https://images.unsplash.com/photo-1514944298352-f674f1fec5e0?auto=format&fit=crop&w=700&q=80" alt="Smoked Heritage Duck Breast" loading="lazy">
+          </div>
+          <div class="card-body">
+            <div class="card-header">
+              <h3>Smoked Duck & Foie Gras</h3>
+              <span class="price">$48</span>
+            </div>
+            <p>Muscovy duck breast seared crisp, tart Morello cherry gastrique, silk parsnip purée, seared Hudson Valley foie gras.</p>
+            <div class="card-footer">
+              <span class="dietary"><i class="fa-solid fa-drumstick-bite"></i> Farm Direct</span>
+              <button class="quick-order-btn" data-dish="Smoked Duck & Foie Gras" data-price="48" aria-label="Reserve dish">
+                <i class="fa-solid fa-plus"></i> Reserve
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <article class="menu-card reveal" data-category="mains">
+          <div class="card-img">
+            <img src="https://images.unsplash.com/photo-1551183053-bf91a1d81141?auto=format&fit=crop&w=700&q=80" alt="Black Truffle Agnolotti" loading="lazy">
+            <span class="tag">Handmade</span>
+          </div>
+          <div class="card-body">
+            <div class="card-header">
+              <h3>Morel & Black Truffle Agnolotti</h3>
+              <span class="price">$42</span>
+            </div>
+            <p>Delicate hand-rolled pillows stuffed with foraged morels, sweet summer corn velouté, shaved fresh Périgord black truffles.</p>
+            <div class="card-footer">
+              <span class="dietary"><i class="fa-solid fa-seedling"></i> Vegetarian</span>
+              <button class="quick-order-btn" data-dish="Morel & Black Truffle Agnolotti" data-price="42" aria-label="Reserve dish">
+                <i class="fa-solid fa-plus"></i> Reserve
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <!-- Desserts -->
+        <article class="menu-card reveal" data-category="desserts">
+          <div class="card-img">
+            <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=700&q=80" alt="Smoked Dark Chocolate Ganache" loading="lazy">
+            <span class="tag gold">Patisserie</span>
+          </div>
+          <div class="card-body">
+            <div class="card-header">
+              <h3>Smoked Chocolate Ganache</h3>
+              <span class="price">$18</span>
+            </div>
+            <p>72% single-origin Araguani chocolate, smoked Maldon sea salt, espresso sable crumble, and charred vanilla bean gelato.</p>
+            <div class="card-footer">
+              <span class="dietary"><i class="fa-solid fa-cake-candles"></i> House Churned</span>
+              <button class="quick-order-btn" data-dish="Smoked Chocolate Ganache" data-price="18" aria-label="Reserve dish">
+                <i class="fa-solid fa-plus"></i> Reserve
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <article class="menu-card reveal" data-category="desserts">
+          <div class="card-img">
+            <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=700&q=80" alt="Wood-Fired Caramelized Fig Tart" loading="lazy">
+          </div>
+          <div class="card-body">
+            <div class="card-header">
+              <h3>Caramelized Black Mission Fig Tart</h3>
+              <span class="price">$16</span>
+            </div>
+            <p>Ember-baked almond frangipane, fresh California mission figs, wild clover honey drizzle, and goat's milk gelato.</p>
+            <div class="card-footer">
+              <span class="dietary"><i class="fa-solid fa-seedling"></i> Vegetarian</span>
+              <button class="quick-order-btn" data-dish="Caramelized Fig Tart" data-price="16" aria-label="Reserve dish">
+                <i class="fa-solid fa-plus"></i> Reserve
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <!-- Cellar & Cocktails -->
+        <article class="menu-card reveal" data-category="drinks">
+          <div class="card-img">
+            <img src="https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?auto=format&fit=crop&w=700&q=80" alt="Ember and Smoke Old Fashioned" loading="lazy">
+            <span class="tag gold">Mixology</span>
+          </div>
+          <div class="card-body">
+            <div class="card-header">
+              <h3>Ember & Smoke Old Fashioned</h3>
+              <span class="price">$24</span>
+            </div>
+            <p>WhistlePig 10-Year Rye, smoked pecan wood syrup, house barrel-aged aromatic bitters, flamed orange peel.</p>
+            <div class="card-footer">
+              <span class="dietary"><i class="fa-solid fa-martini-glass-citrus"></i> Signature Cocktail</span>
+              <button class="quick-order-btn" data-dish="Ember & Smoke Old Fashioned" data-price="24" aria-label="Reserve dish">
+                <i class="fa-solid fa-plus"></i> Reserve
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <article class="menu-card reveal" data-category="drinks">
+          <div class="card-img">
+            <img src="https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?auto=format&fit=crop&w=700&q=80" alt="Grand Cru Bordeaux Cellar Selection" loading="lazy">
+            <span class="tag">Rare Vintage</span>
+          </div>
+          <div class="card-body">
+            <div class="card-header">
+              <h3>2015 Château Margaux</h3>
+              <span class="price">$480</span>
+            </div>
+            <p>Premier Grand Cru Classé, Margaux, Bordeaux. Notes of crushed violets, cassis, cedarwood, and silken velvety structure.</p>
+            <div class="card-footer">
+              <span class="dietary"><i class="fa-solid fa-wine-bottle"></i> 750ml Bottle</span>
+              <button class="quick-order-btn" data-dish="2015 Château Margaux" data-price="480" aria-label="Reserve dish">
+                <i class="fa-solid fa-plus"></i> Reserve
+              </button>
+            </div>
+          </div>
+        </article>
+
+      </div>
+
+      <div class="menu-cta-banner reveal">
+        <div class="banner-text">
+          <h3>Looking for a Complete Culinary Journey?</h3>
+          <p>Experience our Chef's 9-course seasonal tasting menu paired with iconic library cellar selections.</p>
+        </div>
+        <a href="#chefs-special" class="btn btn-primary">Explore Tasting Menu</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Chef's Table / Tasting Menu Experience -->
+  <section class="section chefs-table" id="chefs-special">
+    <div class="container">
+      <div class="chefs-table-grid">
+        <div class="chefs-table-content reveal">
+          <span class="subtitle">Exclusive Culinary Theater</span>
+          <h2>The Hearth Table Experience</h2>
+          <p class="section-lead">A multi-sensory nine-course progression presented fireside by Executive Chef Julian Vance and his culinary brigade.</p>
+          <p>Restricted to only ten guests per evening, The Hearth Table places you directly in front of our open oak firepits. Watch raw elemental fire sculpt seasonal delicacies into transcendent culinary artworks.</p>
+
+          <div class="course-preview-list">
+            <div class="course-step">
+              <span class="course-index">01</span>
+              <div class="course-info">
+                <h4>Golden Osetra Caviar Tartlet</h4>
+                <p>Smoked crème fraîche, cured egg yolk snow, buckwheat crisp</p>
+              </div>
+            </div>
+            <div class="course-step">
+              <span class="course-index">04</span>
+              <div class="course-info">
+                <h4>Charred Spanish Carabineros</h4>
+                <p>Head emulsion jus, kohlrabi tagliatelle, finger lime, sea herbs</p>
+              </div>
+            </div>
+            <div class="course-step">
+              <span class="course-index">07</span>
+              <div class="course-info">
+                <h4>Miyazaki A5 Wagyu Tenderloin</h4>
+                <p>Binchotan roasted over bincho embers, fermented morel reduction, preserved black truffle</p>
+              </div>
+            </div>
+            <div class="course-step">
+              <span class="course-index">09</span>
+              <div class="course-info">
+                <h4>Smoked Birch Honey & Cacao</h4>
+                <p>Wild mountain comb, Valrhona 85% single origin, frozen wood-ember meringue</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="tasting-meta">
+            <div class="meta-box">
+              <span class="meta-label">Tasting Menu</span>
+              <span class="meta-val">$245</span>
+              <small>Per guest</small>
+            </div>
+            <div class="meta-box">
+              <span class="meta-label">Grand Cru Pairing</span>
+              <span class="meta-val">+$165</span>
+              <small>Curated wines</small>
+            </div>
+            <div class="meta-box">
+              <span class="meta-label">Seating Times</span>
+              <span class="meta-val">6:00 & 8:45</span>
+              <small>Two seatings nightly</small>
+            </div>
+          </div>
+
+          <div class="chefs-table-actions">
+            <a href="#reservations" class="btn btn-primary" onclick="selectExperience('hearth')">Reserve Chef's Table</a>
+            <span class="availability-notice"><i class="fa-solid fa-circle-check"></i> Reservations open 30 days in advance</span>
+          </div>
+        </div>
+
+        <div class="chefs-table-visual reveal">
+          <div class="visual-stack">
+            <img src="https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?auto=format&fit=crop&w=1000&q=85" alt="Chef preparing plates at open kitchen counter" class="table-img-primary" loading="lazy">
+            <div class="visual-card-floating">
+              <div class="quote-icon"><i class="fa-solid fa-quote-left"></i></div>
+              <p>"The open flame isn't merely our cooking medium—it is the soul of Aurelia."</p>
+              <span class="author">— Julian Vance</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About / Craft & Fire Philosophy -->
+  <section class="section about-craft" id="about">
+    <div class="container">
+      <div class="section-header reveal text-center">
+        <span class="subtitle">Artisan Provenance</span>
+        <h2>The Alchemy of Flame & Wood</h2>
+        <p>We source distinct kiln-dried woods to impart delicate aromatic bouquets to each specialized dish.</p>
+      </div>
+
+      <div class="craft-grid">
+        <div class="craft-card reveal">
+          <div class="craft-icon"><i class="fa-solid fa-tree"></i></div>
+          <h3>White Oak</h3>
+          <span class="wood-temp">High Heat &bull; 800&deg;F</span>
+          <p>Creates intense caramelization and deep mahogany crusts on our prime dry-aged cuts while preserving tenderness and succulent marbling.</p>
+          <ul class="wood-uses">
+            <li><i class="fa-solid fa-check"></i> 45-Day Dry-Aged Bistecca</li>
+            <li><i class="fa-solid fa-check"></i> Roasted Bone Marrow</li>
+          </ul>
+        </div>
+
+        <div class="craft-card reveal">
+          <div class="craft-icon"><i class="fa-solid fa-apple-whole"></i></div>
+          <h3>Apple & Cherry Orchard</h3>
+          <span class="wood-temp">Gentle Warmth &bull; 450&deg;F</span>
+          <p>Imparts subtle sweet fragrance and fruit blossom aromas that harmonize delicately with heritage poultry and artisanal game birds.</p>
+          <ul class="wood-uses">
+            <li><i class="fa-solid fa-check"></i> Muscovy Duck Breast</li>
+            <li><i class="fa-solid fa-check"></i> Smoked Heirloom Beets</li>
+          </ul>
+        </div>
+
+        <div class="craft-card reveal">
+          <div class="craft-icon"><i class="fa-solid fa-gem"></i></div>
+          <h3>Kishu Binchotan</h3>
+          <span class="wood-temp">Pure Radiant Glow &bull; 1000&deg;F</span>
+          <p>Traditional Japanese white charcoal burns smokeless and odorless, sealing natural ocean juices and delicate seafood proteins instantly.</p>
+          <ul class="wood-uses">
+            <li><i class="fa-solid fa-check"></i> Hokkaido Scallops</li>
+            <li><i class="fa-solid fa-check"></i> Chilean Seabass</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="story-showcase reveal">
+        <div class="story-img">
+          <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1000&q=80" alt="Restaurant interior design and mood lighting" loading="lazy">
+        </div>
+        <div class="story-content">
+          <span class="subtitle">Our Architecture</span>
+          <h3>Designed for Intimacy & Reflection</h3>
+          <p>Created by acclaimed architectural atelier Studio Vesper, Aurelia balances raw blackened steel, reclaimed cedar timbers, honed basalt stone, and warm Venetian plaster.</p>
+          <p>Every table is positioned to feel like a private enclave, enveloped by custom ambient lighting inspired by the warm amber radiance of dying hearth embers.</p>
+          <div class="stats-row">
+            <div class="stat-item">
+              <span class="stat-number">3</span>
+              <span class="stat-desc">Michelin Stars</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number">10</span>
+              <span class="stat-desc">Seats at Hearth Table</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number">100%</span>
+              <span class="stat-desc">Biodynamic Farming</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Interactive Visual Gallery -->
+  <section class="section gallery-section" id="gallery">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="subtitle">A Visual Symphony</span>
+        <h2>The Aurelia Experience</h2>
+        <p>A glimpse into our fires, our dining sanctuary, and our culinary creations.</p>
+      </div>
+
+      <!-- Gallery Filter -->
+      <div class="gallery-filters reveal">
+        <button class="gallery-btn active" data-filter="all">All Moments</button>
+        <button class="gallery-btn" data-filter="dining">Ambiance</button>
+        <button class="gallery-btn" data-filter="culinary">Dishes</button>
+        <button class="gallery-btn" data-filter="hearth">The Hearth</button>
+        <button class="gallery-btn" data-filter="cellar">Cellar</button>
+      </div>
+
+      <!-- Gallery Grid -->
+      <div class="gallery-grid reveal" id="gallery-grid">
+        <div class="gallery-item" data-category="hearth">
+          <img src="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=800&q=80" alt="Wood embers sizzling in open hearth" loading="lazy">
+          <div class="gallery-overlay">
+            <span class="gallery-tag">The Hearth</span>
+            <h4>White Oak Embers</h4>
+            <button class="lightbox-trigger" aria-label="Expand image"><i class="fa-solid fa-up-right-and-down-left-from-center"></i></button>
+          </div>
+        </div>
+
+        <div class="gallery-item" data-category="culinary">
+          <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=800&q=80" alt="Artfully plated haute cuisine dish" loading="lazy">
+          <div class="gallery-overlay">
+            <span class="gallery-tag">Culinary</span>
+            <h4>Heirloom Tasting Plate</h4>
+            <button class="lightbox-trigger" aria-label="Expand image"><i class="fa-solid fa-up-right-and-down-left-from-center"></i></button>
+          </div>
+        </div>
+
+        <div class="gallery-item" data-category="dining">
+          <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=800&q=80" alt="Elegant dining room evening seating" loading="lazy">
+          <div class="gallery-overlay">
+            <span class="gallery-tag">Ambiance</span>
+            <h4>Main Dining Sanctuary</h4>
+            <button class="lightbox-trigger" aria-label="Expand image"><i class="fa-solid fa-up-right-and-down-left-from-center"></i></button>
+          </div>
+        </div>
+
+        <div class="gallery-item" data-category="cellar">
+          <img src="https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?auto=format&fit=crop&w=800&q=80" alt="Aurelia rare vintage wine cellar" loading="lazy">
+          <div class="gallery-overlay">
+            <span class="gallery-tag">Cellar</span>
+            <h4>Grand Cru Collection</h4>
+            <button class="lightbox-trigger" aria-label="Expand image"><i class="fa-solid fa-up-right-and-down-left-from-center"></i></button>
+          </div>
+        </div>
+
+        <div class="gallery-item" data-category="culinary">
+          <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=800&q=80" alt="Delicate seasonal garden salad dish" loading="lazy">
+          <div class="gallery-overlay">
+            <span class="gallery-tag">Culinary</span>
+            <h4>Botanical Mosaic</h4>
+            <button class="lightbox-trigger" aria-label="Expand image"><i class="fa-solid fa-up-right-and-down-left-from-center"></i></button>
+          </div>
+        </div>
+
+        <div class="gallery-item" data-category="dining">
+          <img src="https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?auto=format&fit=crop&w=800&q=80" alt="Cocktail bar counter with warm glowing lighting" loading="lazy">
+          <div class="gallery-overlay">
+            <span class="gallery-tag">Ambiance</span>
+            <h4>The Sommelier Bar</h4>
+            <button class="lightbox-trigger" aria-label="Expand image"><i class="fa-solid fa-up-right-and-down-left-from-center"></i></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Accolades & Press Section -->
+  <section class="section accolades" id="reviews">
+    <div class="container">
+      <div class="section-header reveal text-center">
+        <span class="subtitle">Global Recognition</span>
+        <h2>Critical Acclaim & Accolades</h2>
+        <p>Words from the world's most discerning culinary critics.</p>
+      </div>
+
+      <div class="reviews-slider reveal">
+        <div class="reviews-grid">
+          
+          <div class="review-card">
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <p class="review-text">"An extraordinary mastery of flame and smoke that redefines contemporary American gastronomy. Vance creates dishes of unbelievable elegance where fire is not fuel, but an ingredient of sublime subtlety."</p>
+            <div class="critic-info">
+              <div class="critic-logo"><i class="fa-solid fa-award"></i></div>
+              <div>
+                <h4>Michelin Guide</h4>
+                <span>Three Stars Distinction &bull; 2024</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="review-card featured-review">
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <p class="review-text">"The single most enchanting dining experience of the decade. The 45-day dry-aged bistecca smoked under white oak embers is nothing short of a culinary triumph."</p>
+            <div class="critic-info">
+              <div class="critic-logo"><i class="fa-solid fa-newspaper"></i></div>
+              <div>
+                <h4>The New York Times</h4>
+                <span>Critic's Pick &bull; Pete Wells</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="review-card">
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <p class="review-text">"Atmospheric perfection, peerless hospitality, and an 850-bottle cellar that reads like a love letter to the great terroirs of Burgundy and Bordeaux."</p>
+            <div class="critic-info">
+              <div class="critic-logo"><i class="fa-solid fa-globe"></i></div>
+              <div>
+                <h4>The World's 50 Best</h4>
+                <span>Top 10 Global Discovery</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Reservations Section -->
+  <section class="section reservations" id="reservations">
+    <div class="container">
+      <div class="reservation-wrapper reveal">
+        <div class="reservation-header text-center">
+          <span class="subtitle">Reservations</span>
+          <h2>Secure Your Evening</h2>
+          <p>We welcome intimate dining, chef table experiences, and celebratory gatherings.</p>
+        </div>
+
+        <form class="reservation-form" id="bookingForm" onsubmit="handleReservationSubmit(event)">
+          <div class="form-grid">
+            
+            <!-- Step 1: Party Size -->
+            <div class="form-group">
+              <label for="partySize"><i class="fa-solid fa-user-group"></i> Party Size</label>
+              <select id="partySize" name="partySize" required>
+                <option value="1">1 Guest (Solo Gastronome)</option>
+                <option value="2" selected>2 Guests (Intimate Dining)</option>
+                <option value="3">3 Guests</option>
+                <option value="4">4 Guests</option>
+                <option value="5">5 Guests</option>
+                <option value="6">6 Guests</option>
+                <option value="7+">7+ Guests (Private Dining)</option>
+              </select>
+            </div>
+
+            <!-- Step 2: Date Picker -->
+            <div class="form-group">
+              <label for="resDate"><i class="fa-regular fa-calendar"></i> Date</label>
+              <input type="date" id="resDate" name="resDate" required />
+            </div>
+
+            <!-- Step 3: Seating Preference -->
+            <div class="form-group">
+              <label for="seatingArea"><i class="fa-solid fa-chair"></i> Seating Experience</label>
+              <select id="seatingArea" name="seatingArea" required>
+                <option value="main" selected>Main Dining Room</option>
+                <option value="hearth">Chef's Hearth Counter (9 Courses)</option>
+                <option value="cellar">Private Wine Cellar Alcove</option>
+                <option value="terrace">Veranda Garden (Heated)</option>
+              </select>
+            </div>
+
+            <!-- Step 4: Special Occasion -->
+            <div class="form-group">
+              <label for="occasion"><i class="fa-solid fa-champagne-glasses"></i> Occasion</label>
+              <select id="occasion" name="occasion">
+                <option value="casual" selected>Dinner Dining</option>
+                <option value="anniversary">Anniversary Celebration</option>
+                <option value="birthday">Birthday Dinner</option>
+                <option value="business">Executive Dining</option>
+                <option value="romantic">Romantic Evening</option>
+              </select>
+            </div>
+          </div>
+
+          <!-- Time Slot Selection -->
+          <div class="time-slots-container">
+            <label class="time-label"><i class="fa-regular fa-clock"></i> Select Seating Time</label>
+            <div class="time-slots" id="timeSlots">
+              <button type="button" class="time-btn" data-time="17:00">5:00 PM</button>
+              <button type="button" class="time-btn" data-time="17:30">5:30 PM</button>
+              <button type="button" class="time-btn" data-time="18:00">6:00 PM</button>
+              <button type="button" class="time-btn" data-time="18:30">6:30 PM</button>
+              <button type="button" class="time-btn active" data-time="19:00">7:00 PM</button>
+              <button type="button" class="time-btn" data-time="19:30">7:30 PM</button>
+              <button type="button" class="time-btn" data-time="20:00">8:00 PM</button>
+              <button type="button" class="time-btn" data-time="20:30">8:30 PM</button>
+              <button type="button" class="time-btn" data-time="21:00">9:00 PM</button>
+            </div>
+            <input type="hidden" id="selectedTime" name="selectedTime" value="19:00" />
+          </div>
+
+          <!-- Guest Contact Information -->
+          <div class="guest-details-grid">
+            <div class="form-group">
+              <label for="guestName"><i class="fa-regular fa-user"></i> Full Name</label>
+              <input type="text" id="guestName" name="guestName" placeholder="e.g. Julian Montgomery" required />
+            </div>
+
+            <div class="form-group">
+              <label for="guestEmail"><i class="fa-regular fa-envelope"></i> Email Address</label>
+              <input type="email" id="guestEmail" name="guestEmail" placeholder="julian@example.com" required />
+            </div>
+
+            <div class="form-group">
+              <label for="guestPhone"><i class="fa-solid fa-phone"></i> Mobile Phone</label>
+              <input type="tel" id="guestPhone" name="guestPhone" placeholder="+1 (212) 555-0198" required />
+            </div>
+
+            <div class="form-group">
+              <label for="dietaryNotes"><i class="fa-solid fa-wheat-awn-circle-exclamation"></i> Dietary Notes & Requests</label>
+              <input type="text" id="dietaryNotes" name="dietaryNotes" placeholder="e.g. Pescatarian, peanut allergy, quiet table" />
+            </div>
+          </div>
+
+          <div class="form-policy">
+            <p><i class="fa-solid fa-circle-info"></i> <strong>Cancellation Policy:</strong> Cancellations made up to 48 hours prior to reservation will receive a full refund. We hold tables for 15 minutes past scheduled time.</p>
+          </div>
+
+          <div class="reservation-submit-row">
+            <button type="submit" class="btn btn-primary btn-submit-res" id="resSubmitBtn">
+              <i class="fa-regular fa-calendar-check"></i> Confirm Reservation Request
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Location & Contact Section -->
+  <section class="section contact-section" id="contact">
+    <div class="container contact-grid">
+      
+      <div class="contact-info reveal">
+        <span class="subtitle">Location & Inquiries</span>
+        <h2>Visit Aurelia</h2>
+        <p>Located in the heart of SoHo, Aurelia resides within a historic 19th-century cast-iron building.</p>
+
+        <div class="info-items">
+          <div class="info-item">
+            <div class="info-icon"><i class="fa-solid fa-location-dot"></i></div>
+            <div>
+              <h4>Address</h4>
+              <p>482 Emberwood Way, SoHo<br>New York, NY 10013</p>
+            </div>
+          </div>
+
+          <div class="info-item">
+            <div class="info-icon"><i class="fa-regular fa-clock"></i></div>
+            <div>
+              <h4>Dining Hours</h4>
+              <p><strong>Dinner:</strong> Tuesday &ndash; Sunday &bull; 5:00 PM &ndash; 11:30 PM<br>
+                 <strong>Cocktail Lounge:</strong> 4:30 PM &ndash; 1:00 AM<br>
+                 <em>Closed on Mondays</em></p>
+            </div>
+          </div>
+
+          <div class="info-item">
+            <div class="info-icon"><i class="fa-solid fa-phone"></i></div>
+            <div>
+              <h4>Direct Inquiries</h4>
+              <p>Reservations: +1 (212) 555-8374<br>
+                 Private Events: events@aureliarestaurant.com</p>
+            </div>
+          </div>
+
+          <div class="info-item">
+            <div class="info-icon"><i class="fa-solid fa-shirt"></i></div>
+            <div>
+              <h4>Dress Code</h4>
+              <p>Smart Elegant. Athletic wear and beachwear are politely discouraged.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact-inquiry reveal">
+        <div class="inquiry-card">
+          <h3>Private Dining & Buyouts</h3>
+          <p>For celebrations over 8 guests or private cellar takeovers, please submit your request below. Our concierge will respond within 24 hours.</p>
+
+          <form id="inquiryForm" onsubmit="handleInquirySubmit(event)">
+            <div class="form-group">
+              <label for="inqName">Name</label>
+              <input type="text" id="inqName" placeholder="Your name" required>
+            </div>
+            <div class="form-group">
+              <label for="inqEmail">Email</label>
+              <input type="email" id="inqEmail" placeholder="Your email address" required>
+            </div>
+            <div class="form-group">
+              <label for="inqType">Event Type</label>
+              <select id="inqType">
+                <option>Private Wine Cellar Buyout (up to 16 guests)</option>
+                <option>Full Restaurant Buyout (up to 75 guests)</option>
+                <option>Executive Corporate Tasting</option>
+                <option>Intimate Wedding Reception</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="inqMessage">Message & Preferred Dates</label>
+              <textarea id="inqMessage" rows="3" placeholder="Tell us about your envisioned evening..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-outline full-width">Send Private Event Request</button>
+          </form>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="footer-brand">
+        <a href="#home" class="logo">
+          <span class="logo-icon"><i class="fa-solid fa-fire-flame-curved"></i></span>
+          <span class="logo-text">AURELIA</span>
+        </a>
+        <p>Where fire meets culinary artistry. Seasonal wood-fired gastronomy in SoHo, New York.</p>
+        <div class="social-links">
+          <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#" aria-label="Michelin Guide"><i class="fa-solid fa-award"></i></a>
+          <a href="#" aria-label="Resy"><i class="fa-solid fa-calendar-check"></i></a>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h4>Navigation</h4>
+        <ul>
+          <li><a href="#welcome">Philosophy</a></li>
+          <li><a href="#menu">Special Menu</a></li>
+          <li><a href="#chefs-special">The Hearth Table</a></li>
+          <li><a href="#about">Craft & Fire</a></li>
+          <li><a href="#gallery">Visual Gallery</a></li>
+          <li><a href="#reservations">Reservations</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Curated Experience</h4>
+        <ul>
+          <li><a href="#chefs-special">9-Course Degustation</a></li>
+          <li><a href="#menu">Grand Cru Wine Pairings</a></li>
+          <li><a href="#contact">Private Cellar Buyouts</a></li>
+          <li><a href="#contact">Sommelier Consultations</a></li>
+          <li><a href="#contact">Gift Experiences</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col newsletter-col">
+        <h4>The Aurelia Gazette</h4>
+        <p>Subscribe for rare seasonal cellar releases, invitations to chef collaboration dinners, and tasting events.</p>
+        <form class="newsletter-form" id="newsletterForm" onsubmit="handleNewsletterSubmit(event)">
+          <div class="newsletter-input-group">
+            <input type="email" placeholder="Your email address" required aria-label="Email address for newsletter" />
+            <button type="submit" aria-label="Subscribe to newsletter"><i class="fa-solid fa-arrow-right"></i></button>
+          </div>
+        </form>
+        <span class="privacy-note">We respect your privacy. Unsubscribe at any time.</span>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container footer-bottom-inner">
+        <p>&copy; <span id="currentYear">2026</span> Aurelia Restaurant Group LLC. All rights reserved.</p>
+        <div class="footer-bottom-links">
+          <a href="#">Privacy Policy</a>
+          <span class="dot">&bull;</span>
+          <a href="#">Terms of Dining</a>
+          <span class="dot">&bull;</span>
+          <a href="#">Accessibility</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Lightbox Modal for Gallery -->
+  <div class="lightbox-modal" id="lightboxModal" role="dialog" aria-hidden="true">
+    <div class="lightbox-backdrop" id="lightboxBackdrop"></div>
+    <div class="lightbox-content">
+      <button class="lightbox-close" id="lightboxClose" aria-label="Close image preview">&times;</button>
+      <img src="" alt="" id="lightboxImg" class="lightbox-img" />
+      <div class="lightbox-caption" id="lightboxCaption"></div>
+    </div>
+  </div>
+
+  <!-- Reservation Confirmation Modal -->
+  <div class="res-modal" id="resModal" role="dialog" aria-hidden="true">
+    <div class="res-modal-backdrop" id="resModalBackdrop"></div>
+    <div class="res-modal-dialog">
+      <div class="res-modal-header">
+        <div class="modal-icon"><i class="fa-solid fa-champagne-glasses"></i></div>
+        <h3>Table Reserved Successfully</h3>
+        <button class="res-modal-close" id="resModalClose" aria-label="Close confirmation">&times;</button>
+      </div>
+      <div class="res-modal-body" id="resModalBody">
+        <!-- Injected via JavaScript -->
+      </div>
+      <div class="res-modal-footer">
+        <button class="btn btn-primary" id="resModalDone">Add to Calendar</button>
+        <button class="btn btn-outline" id="resModalPrint" onclick="window.print()"><i class="fa-solid fa-print"></i> Print Details</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Quick Toast Notification -->
+  <div class="toast" id="toastNotification" role="alert" aria-live="polite"></div>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
